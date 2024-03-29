@@ -1,0 +1,66 @@
+Resumo 
+Cozinheiro = Back-END
+Atendente = Front-END
+Garçom = API
+
+Desenvolvedor WEB Back-END
+1-HTTP, WWW, DNS, Domínio, Hospedagens
+2-Linguagem de Programação qualquer ( JavaScript, Python, C#, PHP, Java, Rubi, NODE )
+3-Git e GitHub
+4-Framework e Bibliotecas de Linguagem
+5-Banco de Dados ( MySQL, PostSQL, MariaDB )
+6-APIs ( JASON )
+7-Testes
+
+Desenvolvedor WEB Front-END
+1-HTTP, WWW, DNS, Domínio, Hospedagens
+2-HTML = Linguagem de Marcação
+3-CSS
+4-JavaScript
+5-Pré-processador CSS
+6-Framework CSS e JavaScript
+7-Gerenciamento de Pacote
+8-Git e GitHub
+9-TypeScript
+10-Styled-Components e CSS Modules
+
+Desenvolvedor FULL Stack
+1-Front-END dps Back-END
+2-
+3-
+4-
+5-
+6-
+7-
+8-
+9-
+10-
+
+Programando Front-END
+P = Popular
+
+1- PC
+2- Visual Code
+3- Git
+4- Github
+5- HTML
+6- CSS
+7- JavaScript ( P )
+8- Framework : React ( P )
+9- Framework : Endman
+10- SASS
+11- Blue
+12- Teirunde
+13- 
+
+Javascript :
+
+1-HTML e CSS
+2-https://lp.rocketseat.com.br/nlw
+3-Gerenciadores de pacotes
+4-Packet mannager
+5-NPN e PNPN
+6-Não usar Iwarne
+7-Projeto Next
+8-Typescript
+9-

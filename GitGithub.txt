@@ -1,0 +1,12 @@
+Git e Github :
+
+Git = Ferramenta de versionamento de arquivos
+Várias pessoas alterando o mesmo arquivo
+Github = Site que usa o git
+Repositórios = pastas do git pra armazenas projeto
+Branch = Ramificação no projeto
+Commit = Postar alteração no projeto
+Merge = Junção do Branch com o Commit/Branch
+Remote = Ligação entre o aplicativo e o site
+Push = Commit no Remote
+Pull = Puxa o repositório do Github pra máquina

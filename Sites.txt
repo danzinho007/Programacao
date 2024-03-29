@@ -1,0 +1,109 @@
+Learn For Free in 2023:
+
+Algoritmo
+Angular        - Git         - Python
+AWAS
+CSS            - HTML        - React
+CyberSegurança -
+DevOps         - JavaScript  - SQL 
+DSA Visual     -        -    - Tailwind
+        -                    - Vue
+
+Download : Python
+https://www.1024tera.com/portuguese/sharing/link?surl=FA_atVoNU2ZyiiO1vpNQpw
+
+1. Python
+http://pythontutorial.net
+
+2. JavaScript
+http://learnjavascript.online
+
+3. SQL 
+http://sqlbolt.com
+
+4. Git
+http://atlassian.com/git/tutorials
+
+5. DevOps
+http://edx.org/learn/devops
+
+6. HTML
+http://w3schools.com
+
+7. CSS
+http://css-tricks.com
+
+8. React
+http://react-tutorial.app
+
+9. Angular
+http://scrimba.com/learn/yourfirstangularapp
+
+10. Vue → 
+http://vueschool.io
+
+11. Tailwind
+http://scrimba.com/playlist/pdq3QsM
+
+12. Algorithms
+http://khanacademy.org/computing/computer-science/algorithms
+
+13. DSA Visuals
+http://visualgo.net
+
+14. Cyber Security
+http://classcentral.com/subject/cybersecurity
+
+15. AWS
+http://aws.amazon.com/training
+
+16. GCP
+http://coursera.org/learn/gcp-fundamentals
+
+https://ajuda.hostnet.com.br/tutoriais/
+
+https://amatematicapura.blogspot.com/2011/02/brincando-de-pensar-em-um-numero.html
+
+https://brasilescola.uol.com.br/matematica/logaritmo.htm#:~:text=Para%20calcular%20um%20logaritmo%2C%20temos,36%2C%20sendo%20a%20resposta%202.
+
+https://www.clubedohardware.com.br/forums/topic/1586434-desofuscar-javascript-para-jogo/
+
+https://codepen.io/search/pens?q=aula
+
+https://www.cursoemvideo.com/cursos/
+
+https://emojipedia.org/
+
+https://www.freecodecamp.org/portuguese/news/aprenda-a-criar-seu-primeiro-bot-no-telegram-com-python/
+https://www.freecodecamp.org/portuguese/news/manual-de-html-aprendizagem-de-html-para-iniciantes/
+
+https://github.com/Universidade-Livre/ciencia-da-computacao
+
+https://ide.cs50.io/5e0b859076ea4bfb84fada50e5bd6630
+
+https://kingscalculator.com/pt/outras-calculadoras/calculadora-de-morte
+
+https://love2d.org/
+
+https://www.mycompiler.io/pt
+
+https://perfil.napratica.org.br/e/pt-BR/auth?continue_to=https://perfil.napratica.org.br/e/ead/sso
+
+https://www.pexels.com/pt-br/procurar/videos/morning/
+
+https://p5js.org/reference/#group-Image
+
+https://pt.khanacademy.org/
+
+https://www.science.co.il/internet/html/Smileys.php
+
+https://olimpiada.ic.unicamp.br/passadas/OBI2003/
+
+https://perfil.napratica.org.br/e/pt-BR/auth?continue_to=https://perfil.napratica.org.br/e/ead/sso
+
+https://sites.google.com/view/computacaofundamental/oitavoano
+
+Desafios Cibersegurança :
+https://tryhackme.com/dashboard
+
+https://www.wigle.net/
