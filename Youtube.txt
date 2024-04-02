@@ -1,3 +1,30 @@
+Outros :
+
+Pokemon :
+* BRTTar Pokemon competitivo *
+https://www.youtube.com/playlist?list=PLNH2A6ls29t0VOsPQBRQBWVjN8xQbhHIv
+
+Listas :
+
+* Clécio Tutorial Godot 2D *
+https://www.youtube.com/playlist?list=PL-oJEh-N3A3SOPWuMuulbnJv0BFgvBnVG
+
+* Code : Projeto Front-End React JS *
+https://www.youtube.com/playlist?list=PLndfVEVk3QLDP5qSLGwOs0-YGPC07GP2W
+
+* DevBandeira Godot * 
+( Assistindo )
+https://www.youtube.com/playlist?list=PLFzAtSiFUbT8rfGtPKvRjgnTC4R8UO3u_
+
+* Guilhermeasper : Pygame Tutorial Snake Game *
+( Assistindo )
+https://www.youtube.com/playlist?list=PLzn2mIpnKXEo0iiFrlqv-fFAbRd0cjDLe
+
+* Silvanei : React Native + Typescript 
+https://www.youtube.com/playlist?list=PLRGv4LGMjiB9nBoDXNR19CiOft3fW0ald
+
+Outros :
+
 * [index]
 
 Python para UPBGE
