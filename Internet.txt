@@ -1,0 +1,13 @@
+Internet :
+
+-Rede Interna ( local )
+-Rede Externa ( exterior )
+
+-WWW = World Wide Web
+Rede Mundial de Computadores
+
+-PC :
+IP ( Internet Protocol ) = Famoso CEP :
+DNS ( Domain Name System ) : Converte o Domínio pro IP
+Dominio : Site
+

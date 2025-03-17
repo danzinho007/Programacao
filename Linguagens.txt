@@ -1,0 +1,13 @@
+Linguagens de Programação :
+
+Código = Instrução
+Programa = Muitos códigos
+
+-Computador :
+Input e Output
+Linguagem binária : 0 e 1
+
+Linguagem de baixo nível :
+Mais próximo do computador
+Linguagem de alto nível :
+Mais distante do computador

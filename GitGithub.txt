@@ -1,5 +1,7 @@
 Git e Github :
 
+Código > StageArea > Commit1 > Commit2 > Commit3 > Branch
+
 Git = Ferramenta de versionamento de arquivos
 Várias pessoas alterando o mesmo arquivo
 Github = Site que usa o git
@@ -10,3 +12,32 @@ Merge = Junção do Branch com o Commit/Branch
 Remote = Ligação entre o aplicativo e o site
 Push = Commit no Remote
 Pull = Puxa o repositório do Github pra máquina
+Stage Area = Local anterior ao commit
+
+// Inicia o git no seu projeto
+git init 
+// Verifica alterações 
+git status
+// Adiciona todos arquivos 
+git add arquivo.extensão
+// Cria e descreve um ponto na história
+git commit -m "message here"
+// Histórico de commits
+git log
+// Remove arquivos 
+git rm ---cached arquivo.extensão
+// Restaura arquivo
+git restore arquivo.extensão
+// Restaura arquivos passados :
+git checkou LETRAS -- arquivo.extensão
+// Puxar modificações do repositório remoto para o local
+git pull 
+// Envia as modificações locais para o repositório remoto
+git push
+
+Comandos bash :
+cd LocalDoArquivo
+
+Comandos :
+cd = change disk
+pwd = Caminho da pasta

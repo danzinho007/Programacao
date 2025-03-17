@@ -1,3 +1,9 @@
+Site estático :
+Home de um site 
+
+Site Dinâmico : 
+Login de um site
+
 Fazendo :
 
 https://www.theodinproject.com/lessons/foundations-the-cascade

@@ -1,0 +1,15 @@
+Front-End vs Back-End 
+cliente vs servidor
+
+Front-End : Google.com > Brower > Servidor 
+Back-End : Servidor > Browser > HTML CSS JS Imagens outros 
+
+Tecnologias Front-End :
+CSS = Linguagem de estilo
+HTML = Linguagem de marcação de texto
+JavaScript = Linguagem de Programação
+
+Tecnologias Back-End :
+NodeJS = Roda JavaScript no computador 
+SQL = Banco de dados
+

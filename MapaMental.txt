@@ -1,0 +1,9 @@
+Mapa Mental :
+
+Ambiente - Navegador - Chrome / Edge / Firefox / Safari
+Ambiente - Editor - Local - Bloco de Notas / Vim / VSC
+Ambiente - Editor - Local - VSC / FrontEditor.dev
+Ambiente - Ferramentas - Desenho - 
+Ambiente - Ferramentas - Design - Figma
+Ambiente - Ferramentas - Mapas Mentais
+Ambiente - Ferramentas - Anotações

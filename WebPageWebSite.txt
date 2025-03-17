@@ -1,0 +1,7 @@
+-WebPage :
+Página na Web
+HTML
+Acessa pelo navegador usando URL ( endereço )
+
+-Website :
+Agrupamento estruturado de páginas Web
