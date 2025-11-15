@@ -1,0 +1,123 @@
+Claro, podemos falar sobre Linguagem C. A Linguagem C é uma linguagem de programação de alto nível que foi criada nos anos 70 por Dennis Ritchie na Bell Labs. Ela é amplamente utilizada em sistemas operacionais, compiladores, jogos e outras aplicações que exigem alto desempenho.
+
+Uma das principais características da Linguagem C é sua eficiência e portabilidade. Ela foi criada com o objetivo de ser uma linguagem de programação de sistema, ou seja, uma linguagem capaz de lidar com os recursos de hardware do computador de forma direta e eficiente.
+
+A Linguagem C também é conhecida por sua sintaxe simples e direta, o que a torna fácil de aprender e escrever. Além disso, ela possui uma vasta biblioteca padrão que oferece muitas funcionalidades úteis, como manipulação de arquivos, entrada e saída, gerenciamento de memória, entre outras.
+
+Outra vantagem da Linguagem C é sua capacidade de interagir facilmente com outras linguagens de programação, como C++, Python e Java, por exemplo. Isso torna a Linguagem C uma escolha popular para o desenvolvimento de projetos complexos que envolvem diversas linguagens.
+
+No entanto, a Linguagem C também tem suas limitações. Ela é uma linguagem de baixo nível, o que significa que é mais difícil de aprender e de escrever do que outras linguagens de programação de alto nível, como Python ou Ruby, por exemplo. Além disso, a Linguagem C não oferece recursos de segurança de memória, o que pode tornar os programas vulneráveis a erros de programação que podem levar a falhas do sistema.
+
+Em resumo, a Linguagem C é uma linguagem poderosa e eficiente que é amplamente utilizada em sistemas operacionais, compiladores, jogos e outras aplicações que exigem alto desempenho. Se você está interessado em aprender a Linguagem C, é importante dedicar tempo para estudar sua sintaxe e aprender as melhores práticas de programação para evitar erros e garantir a segurança do sistema.
+
+Historico 
+
+1972 - Linguagem C
+1990 - ANSI
+1998 - ISO 
+2011 - C11
+2018 - C18 ( ISO/IEC)
+
+Extensao : .c 
+.c > Compilador .exe > PC executa o exe
+
+Caracteristicas :
+
+Proxima ao Hardware
+Portável
+Alta Performance = Próxima do Computador
+Modular
+Simples
+Uso Geral
+
+Quem usa ? Maioria Hardware
+
+Sistemas Operacionais
+Drivers
+Sistemas Embarcados ( Drone )
+Microcontroladores
+FPGA
+Automação
+Robótica
+IoT 
+
+Requisitos :
+Editor de Texto + Compilador
+IDE ( Desenvolver e Depurar )
+-------------------------------
+
+Linguagem C e Case Sensitive , ou seja , maiusculas e minusculas se diferenciam
+Cada linha de codigo fecha com ponto e v�rgulo e chaves
+
+// As linhas abaixo "chamam" as bibliotecas
+
+// Entrada e sa�da do sistema
+#include <stdio.h>
+
+// Fun��es b�sicas do sistema
+#include <stdlib.h>
+
+// Coment�rios s�o ignorados pelo aplicativo
+
+/* coment�rios em bloco */ 
+// coment�rio
+
+
+// int N�meros inteiros de �32768 a 32767
+// main ou principal � o ponto de partida
+Dentro do main teremos par�metros
+// argc � n�mero de linhas do c�digo
+// char � um tipo de vari�vel que aceita qualquer coisa ( Caracter , letra , n�mero , etc )
+// argv � o conte�do das linhas do c�digo
+// return 0 � uma fun��o de retorno ao main
+// 0 indica que o aplicativo retornou sem erros no c�digo
+
+int main (int argc, char *argv[]
+{
+    printf("Hello World");
+    printf("Hello World \n");
+    printf(\n "Hello World \n");
+    system(''pause'');
+    return 0;
+}
+
+// printf = Escreve na tela o texto
+// \n = pula uma linha
+// system = Pede pra voc� apertar algo
+
+Para executar o aplicativo = Executar > Compilar & Executar 
+
+Arquivo > Salvar todos
+
+Abrir a pasta onde est� salvo :
+Aplicativo = Execut�vel
+( O computador precisa ter o PromptDOS pra funcionar )
+C Source File = C�digo Fonte
+
+Biblioteca de idiomas
+#include <locale.h>
+
+//A linha abaixo configura o idioma para portugu�s
+setlocale(LC_ALL,"Portuguese");
+//A linha abaixo muda a cor do texto
+// C�digos das cores : 
+0 Preto 
+1 Azul 
+2 Verde  
+3 Verde �gua 
+4 Vermelho
+5 Roxo
+6 Amarelo
+7 Branco 
+8 Cinza 
+9 Azul Claro
+A verde claro
+B verde-�gua Claro
+C Vermelho-claro
+D Lil�s
+E Amarelo Claro
+F Branco Brilhante
+system("color A");
+// Fundo azul letra branco
+// Primeira � o fundo e segundo � a letra
+system("color 1F");
