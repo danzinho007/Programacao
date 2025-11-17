@@ -1,0 +1,59 @@
+Assembly_Anotacoes
+https://www.mycompiler.io/view/JhmduDle9RM
+
+; Sintaxe :
+; mov eax, 777 = moV eaX, 777
+; mov eax, 777 diferente de mov 777, eax
+; Case-insensitive
+; Tanto faz escrever em maiusculo ou minusculo 
+
+; Números :
+; Binário = 0b0111
+; Octal = 0o10 
+; Decimal = 9
+; Hexecimal = 0x0a
+; Ponto flutuante = 11.0
+
+; String :
+; "Normal"
+; 'Norma'
+; 'Normal\n'
+
+; Formato 
+; operação operando1, operando2, operando3
+
+; Endereçamento 
+; mov [0x100], eax > Acessando valor na memória
+; mov [0x100], [0x200] > Erro
+
+; Tamanhando do operando
+; byte = 1
+; word = 2
+; dword / double word = 4
+; qword / quad wordl = 8
+; tword / ten word = 10
+; oword = 16
+; yword = 32
+; zworod = 64
+
+; Seções :
+; .text = Código executável do programa
+; .data = Armazenar dados inicilizados
+; .bss = Armazenar dados não inicializados
+; .rodata / r.data = Armazenar dados somente leitura
+
+; Seções tem flags que definem atributos para a seção :
+; exec = execução
+; read = leitura
+; write = escrita
+
+; Instruções :
+; mov = copia o valor do operando fonte para o operando destino
+; add = soma o valor do operando destino com o valor do operando fonte
+; sub = subtrair o valor do operando destino com o valor do operando fonte
+; inc = incremente o valor do operando destino em 1
+; dec = decrementa o valor do operando destino em 1
+; mul = multiplica uma parte do mapeamente de RAX pelo operando fonte passado
+; div = divisão de um valor pelo operando fonte
+;       armazena o quiecente a sobra dessa divisão nele também
+;

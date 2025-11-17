@@ -1,0 +1,10 @@
+Angular_OqueÉ
+
+Angular é um framework de código aberto do Google para programação de aplicações web dinâmicas e interativas, escrito em TypeScript. Ele utiliza uma arquitetura baseada em componentes reutilizáveis para construir interfaces, oferece recursos como roteamento, validação de formulários e injeção de dependência, e é amplamente utilizado para o desenvolvimento de Single Page Applications (SPAs). Para usá-lo, é necessário ter conhecimento em HTML, CSS e JavaScript/TypeScript. 
+Principais características
+Baseado em componentes: Aplicações são construídas a partir de componentes que são módulos reutilizáveis, o que melhora a organização e manutenção. 
+Escrito em TypeScript: Utiliza o TypeScript, um superset do JavaScript que adiciona tipos estáticos, tornando o código mais robusto e fácil de manter. 
+Plataforma completa: Funciona como uma plataforma de desenvolvimento com recursos integrados para roteamento, gerenciamento de estado, validação de formulários e mais. 
+Reatividade: Atualiza automaticamente a interface do usuário quando ocorrem mudanças nos dados. 
+Injeção de dependência: Facilita a manutenção de aplicações complexas ao gerenciar as dependências de classes. 
+Single Page Applications (SPAs): É uma ferramenta popular para construir SPAs, onde a navegação ocorre dentro da mesma página HTML, melhorando a experiência do usuário. 
