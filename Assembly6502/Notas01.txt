@@ -1,0 +1,24 @@
+Site 
+http://www.6502.org/users/obelisk/
+
+Meu primeiro computador, um BBC Microcomputer Modelo B, era equipado com um processador 6502 e passei muitas horas escrevendo e depurando programas em linguagem assembly para ele (fui o autor do CodeKit, coautor do SupaStore e de muitas outras coisas). Consegui manter meu BBC até 1989, quando minha esposa insistiu que eu me desfizesse dele antes de comprar meu primeiro PC baseado em Intel.
+
+Em algum momento de 1998, encontrei um emulador chamado 'pcBBC' na internet. Era um emulador de BBC muito bom e reacendeu meu interesse em programação assembly para 6502. Infelizmente, o pcBBC não sobreviveu às várias atualizações do Microsoft Windows e agora uso o BeebEm.
+
+O assembler com o qual comecei (AS65) roda em DOS (ou em uma janela do DOS) e consegue compilar uma ROM de 16 KB quase instantaneamente (em um Pentium III de 500 MHz). Quando eu programava no meu BBC, costumava fazer uma pausa para tomar uma xícara de chá (ou duas) enquanto o assembler estava rodando!
+
+Mais recentemente, escrevi meu próprio assembler para 6502 baseado em Java, que suporta código relocável e algumas construções simples de programação estruturada (por exemplo, if/then/else).
+
+Conteúdo
+Originalmente, tudo estava em um único arquivo HTML, mas ele ficou grande demais para qualquer um dos meus editores lidar sem travar, então tive que dividi-lo em 8 seções.
+
+Arquitetura descreve os detalhes básicos do processador.
+Registros aborda cada um dos registradores internos e seu uso.
+
+Instruções fornece um resumo de todo o conjunto de instruções.
+Endereçamento descreve cada um dos modos de endereçamento de memória do 6502.
+Algoritmos contém exemplos de codificação básica para 6502.
+Referência descreve o conjunto completo de instruções em detalhes.
+Downloads contém alguns arquivos úteis para programação em 6502.
+Links contém alguns links para outros sites que valem a pena visitar.
+Clique em qualquer um dos links acima ou nos links na parte inferior de cada página para navegar entre as seções.

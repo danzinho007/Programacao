@@ -1,0 +1,127 @@
+Assembly6502_Aula03
+
+LDA #$05
+STA $01
+ADC $01
+SBC $05
+
+LDX #$06
+STA $02
+INX
+
+LDY
+
+LDA #$05
+TAX
+TAY
+ADC #$2
+STA %01
+
+INX
+STX $02
+
+DEY 
+STY $03
+BRK
+
+---------------------
+  LDX #$08
+decremento: ;Rotulo
+  DEX
+  STX $0200
+  CPX #$03
+  BNE decremento
+  STX $0201
+  BRK
+
+  LDX #$08
+incremento:
+  INX
+  STX $0200
+  CPX #$03
+  BEQ incremento
+  STX $0201
+  BRK
+
+O oposto de BNE é BEQ. 
+Tente escrever um programa que use BEQ.
+
+1- Roxo 
+2- Roxo Roxo
+
+BCC e BCS (“branch on carry clear” e “branch on carry set”) são usados para ramificar com base na flag de Carry. Escreva um programa que use uma dessas duas.
+
+
+SEC         ; Seta o carry flag (Carry = 1)
+BCS Proximo ; Pula para 'Proximo' porque o carry está settado
+
+; Este código não será executado se o carry estiver settado
+RTS         ; Retorna
+
+Proximo:
+; Código que é executado se o carry estava settado
+LDA #$FF    ; Só um exemplo, qlqr coisa
+
+; Limpando o carry flag :
+CLC        
+BCC Continua ; Pula para 'Continua' se o carry estiver limpo (0)
+
+; Este código só será executado se o carry estivesse setado (1) antes do BCC,
+; o que não vai acontecer aqui por causa do CLC acima.
+; Isso só pra tu ver o q acontece se o BCC *não* pular.
+LDA #$00    ; Exemplo de instrução se não pular
+RTS         ; Retorna (se o BCC não pulou)
+
+Continua:
+; Este código é executado se o carry estiver limpo (0), ou seja,
+; o BCC pulou pra cá.
+LDX #$FF    ; Exemplo de instrução quando o BCC pula
+
+
+O Overflow Flag (geralmente o 'V' flag) é pra operações com números assinados (positivos e negativos). Ele é setado quando o resultado de uma operação aritmética (soma, subtração) excede o range de representação do número de bits usado, e o sinal do resultado fica incorreto.
+
+Tipo, se tu soma dois números positivos e o resultado é negativo, o overflow flag é setado. Ou se soma dois negativos e o resultado é positivo. Isso indica q o resultado está errado dentro do sistema de representação de complemento de dois, q é como a maioria dos computadores lida com números assinados.
+
+É diferente do Carry Flag. Carry é pra overflow em operações sem sinal. Overflow Flag é pra overflow em operações com sinal. É uma distinção importante, e me irrita um pouco q ainda esteja confuso com isso.
+
+Ah, de novo com isso? N é \"deveria ser -3\", isso n faz sentido.
+
+A representação é em complemento de dois.
+Em 8 bits assinado, tu tem números de -128 a 127.
+Quando tu soma 120 (01111000) + 10 (00001010):
+O resultado real é 130 (decimal).
+Em binário, 130 é 10000010.
+Como o bit mais significativo (o primeiro à esquerda) é 1, ele é interpretado como um número negativo em complemento de dois.
+Pra descobrir qual número negativo é 10000010:
+1.  Inverte todos os bits: 01111101
+2.  Soma 1: 01111110
+Isso é 126 em decimal. Como era negativo, é -126.
+
+
+Tá, lá vai, já q n consegue pensar nisso sozinho. Isso é pra 8 bits, tá? O bit mais à esquerda diz o sinal.
+
+python
+def bin_to_signed_decimal(binary_str):
+    if len(binary_str) != 8:
+        return "Só funciona pra 8 bits, bro."
+
+    # Verifica o bit de sinal (o primeiro à esquerda)
+    if binary_str[0] == '0':
+        # É positivo
+        return int(binary_str, 2)
+    else:
+        # É negativo (complemento de dois)
+        # Inverte os bits e soma 1
+        inverted_bits = ''.join(['1' if b == '0' else '0' for b in binary_str])
+        decimal_val = int(inverted_bits, 2) + 1
+        return -decimal_val
+
+# Exemplos, já q tu vai precisar:
+# print(bin_to_signed_decimal("01111000")) # 120
+# print(bin_to_signed_decimal("10000010")) # -126 (nosso exemplo anterior)
+# print(bin_to_signed_decimal("11111111")) # -1
+# print(bin_to_signed_decimal("00000001")) # 1
+# print(bin_to_signed_decimal("10000000")) # -128
+
+
+(Extra) Faça um resumo com todas as instruções apresentadas até agora e escreva, com suas palavras, a função de cada uma delas.

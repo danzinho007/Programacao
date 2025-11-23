@@ -1,0 +1,11 @@
+Assembly6502_Aula06
+
+  LDX #$08 ;Carrega no registrado X o valor $08
+decremento:
+  DEX ;Diminui em 1 o valor registrado no X
+  STX $0200 ;Joga no endereço de memória $0200 o que ta no registrador X
+  CPX #$03 ;Compara o valor $03 no X, se for igual a flag z é definida como 1, se for diferente é 0
+  BNE decremento ;Volta pro decremente se os valores forem diferentes, se for igual continua
+  STX $0201
+  BRK
+  

@@ -1,0 +1,151 @@
+LDA #$00 ;Linha 01
+STA $0200
+
+LDA #$01 ;Linha 02
+STA $0220
+LDA #$01 ;Linha 02
+STA $0221
+LDA #$01 ;Linha 02
+STA $0222
+LDA #$01 ;Linha 02
+STA $0223
+LDA #$01 ;Linha 02
+STA $0224
+LDA #$01 ;Linha 02
+STA $0225
+LDA #$01 ;Linha 02
+STA $0226
+LDA #$01 ;Linha 02
+STA $0227
+LDA #$01 ;Linha 02
+STA $0228
+LDA #$01 ;Linha 02
+STA $0229
+LDA #$01 ;Linha 02
+STA $022a
+LDA #$01 ;Linha 02
+STA $022b
+LDA #$01 ;Linha 02
+STA $022c
+LDA #$01 ;Linha 02
+STA $022d
+LDA #$01 ;Linha 02
+STA $022e
+LDA #$01 ;Linha 02
+STA $022f
+LDA #$01 ;Linha 02
+STA $0230
+LDA #$01 ;Linha 02
+STA $0239
+LDA #$01 ;Linha 02
+STA $023a
+LDA #$01 ;Linha 02
+STA $023f
+
+LDA #$02 ;Linha 03
+STA $0240
+
+LDA #$03 ;Linha 04
+STA $0260
+
+LDA #$04 ;Linha 05
+STA $0280
+
+LDA #$05 ;Linha 06
+STA $02a0
+
+LDA #$06 ;Linha 07
+STA $02c0
+
+LDA #$07 ;Linha 08
+STA $02e0
+
+LDA #$08 ;Linha 09
+STA $0300
+
+LDA #$09 ;Linha 10
+STA $0320
+
+LDA #$0a ;Linha 11
+STA $0340
+
+LDA #$0b ;Linha 12
+STA $0360
+
+LDA #$0c ;Linha 14
+STA $0380
+
+LDA #$0d ;Linha 15
+STA $03a0
+
+LDA #$0e ;Linha 16
+STA $03c0
+
+LDA #$0f ;Linha 17
+STA $03e0
+
+LDA #$10 ;Linha 18
+STA $0400
+
+LDA #$11 ;Linha 19
+STA $0420
+
+LDA #$12 ;Linha 20
+STA $0440
+
+LDA #$13 ;Linha 21
+STA $0460
+
+LDA #$14 ;Linha 22
+STA $0480
+
+LDA #$15 ;Linha 23
+STA $04a0
+
+LDA #$16 ;Linha 24
+STA $04c0
+
+LDA #$17 ;Linha 25
+STA $04e0
+
+LDA #$18 ;Linha 26
+STA $0500
+
+LDA #$19 ;Linha 27
+STA $0520
+
+LDA #$a1 ;Linha 28
+STA $0540
+
+LDA #$a2 ;Linha 29
+STA $0560
+
+LDA #$a3 ;Linha 30
+STA $0580
+
+LDA #$a4 ;Linha 31
+STA $05a0
+
+LDA #$a5 ;Linha 32
+STA $05c0
+
+LDA #$a6 ;Linha 33
+STA $05e0
+
+LDA #$a7 ;Linha 33
+STA $05e8
+
+LDA #$a7 ;Linha 33
+STA $05ea
+
+LDA #$a7 ;Linha 33
+STA $05ef
+
+LDA #$a8 ;Linha 33
+STA $05f1
+
+LDA #$a9 ;Linha 33
+STA $05f8
+
+LDA #$01 ;Linha 33
+STA $05ff

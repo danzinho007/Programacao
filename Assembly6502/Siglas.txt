@@ -1,0 +1,61 @@
+Assembly6502_Siglas:
+
+ADC $01
+;Adiciona o valor armazenado no endereço de memória $01 ao registrador A
+
+ADC #$c4  
+;Adiciona o valor hexadecimal $c4 ao valor já presente no registrador A
+
+BCC $90
+;Branch on Carry Clear
+salta (pula) se o bit Carry estiver LIMPO (0)
+CLC       ; Clear Carry (Carry = 0)
+BCC label ; Pula para "label" porque Carry = 0
+
+BCS $B0
+;Branch on Carry Set
+ salta (pula) se o bit Carry estiver SETADO (1)
+SEC       ; Set Carry (Carry = 1)
+BCS label ; Pula para "label" porque Carry = 1
+
+BCC continua se o flag estiver limpo ( 0 )
+BCS continua se o flag estiver setado ( 1 )
+
+BEQ
+;Branch if equal / Volta pro loop se for igual
+
+BNE
+;Desloca a execução para o rotulo de decremento se a flag z for 0 
+
+BRK       
+;Interrompe a execução do programa
+
+CPX #$03 = Compara o X ao endereço de memória $03
+Se for igual a flag Z é definida em 1, caso contrario e 0
+
+DEX = Diminui em 1 o valor no registrador X
+DEY = Diminui em 1 o valor no registrador Y
+INX = Incrementa em 1 o valor no registrador X
+
+LDA #$01 = Carrega o valor hexadecimal $01 no registrador A
+LDX #$01 = Carrega o valor hexadecimal $01 no registrador X
+LDY #$01 = Carrega o valor hexadecimal $01 no registrador Y
+
+SBC = 
+STA $0200 = Guarda o que ta no registrado A ,
+no endereço de memória $0200
+STX $0200 = Guarda o que ta no registrado X, 
+no endereço de memória $0200
+STY $0200 = Guarda o que ta no registrado Y, 
+no endereço de memória $0200
+
+TAX = Transfere o valor de A para o registrador X
+Porém o valor de A continua
+TAY = Transfere o valor de A para o registrador Y
+TXA =
+TYA = 
+
+  01111000
++ 00001010
+------------------
+  01111010

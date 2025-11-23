@@ -1,0 +1,32 @@
+Assembly6502_Aula01
+
+Nosso Primeiro Programa
+
+Código Assemble:
+LDA #$01
+STA $0200
+LDA #$05
+STA $0201
+LDA #$08
+STA $0202
+
+Locais de memória do simulator : $0200 a $05ff
+
+Explicando :
+
+LDA #%01
+#%01 = Qualquer coisa que é acompanhada por # é um valor numérico literal
+A vai de 00 pra 01 e PC vai de 600 pra 602
+LDA carrega o valor hexadecimal $01 no Registrador A
+01 é a cor branca ( ver abaixo a lista )
+
+STA $0200 = PC vai de 602 pra 605
+Armazenando 01 no local de memória $0200 desenha um pixel Branco no canto superior esquerdo
+
+Linhas
+1° linha = 0200
+2° linha = 0220
+3° linha = 0240
+4° Linha = 0260
+5° linha = 0290
+Última canto superior esquerdo = 05ff

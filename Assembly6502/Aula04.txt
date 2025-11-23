@@ -1,0 +1,22 @@
+Assembly6502_Aula04
+
+LDA #$01
+STA $0200
+TAX
+TAY
+
+LDA #$c5
+TAY
+TAX
+
+LDX #$c7
+TXA
+TAY
+
+LDY #$c9
+TYA
+TAX
+
+INX
+ADC #$c4
+BRK

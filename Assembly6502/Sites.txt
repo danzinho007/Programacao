@@ -1,0 +1,12 @@
+Aula 01 
+https://taihendarou.github.io/6502facil/#intro
+
+Original :
+https://skilldrick.github.io/easy6502/
+
+Ler
+https://web.archive.org/web/20210626024532/http://www.obelisk.me.uk/6502/registers.html
+
+http://www.6502.org/tutorials/6502opcodes.html#TAX
+
+http://www.6502.org/users/obelisk/

@@ -1,0 +1,180 @@
+X° linha = STA $XXXX
+0 a 9 e A a F
+
+LDA #$05
+STA $0200
+LDA #$05
+STA $0201
+LDA #$05
+STA $0202
+LDA #$05
+STA $0203
+LDA #$05
+STA $0204
+LDA #$05
+STA $0205
+LDA #$05
+STA $0206
+LDA #$05
+STA $0207
+LDA #$05
+STA $0208
+LDA #$05
+STA $0209
+LDA #$05
+STA $020A
+LDA #$05
+STA $020B
+LDA #$05
+STA $020C
+LDA #$05
+STA $020D
+LDA #$05
+STA $020E
+LDA #$05
+STA $020F
+LDA #$05
+STA $0210
+LDA #$05
+STA $0211
+
+LDA #$07
+STA $0220
+LDA #$07
+STA $0221
+LDA #$07
+STA $0222
+
+LDA #$06
+STA $0240
+LDA #$06
+STA $0241
+LDA #$06
+STA $0242
+
+LDA #$01
+STA $0260
+LDA #$01
+STA $0261
+LDA #$01
+STA $0262
+
+LDA #$01
+STA $05ff
+
+
+
+Dicas:
+
+Comando ;Comentario
+
+LDA #$01  ;Carrega o valor hexadecimal $01 no registrador A
+INX       ;Incrementa o valor do registrador X
+SEC       ;Setar o carry flag
+STA $0200 ;Armazena o valor do registrador A no local de memória $0200.
+TAX       ;Transfere o valor de A para o registrador X
+TAY	  ;Transfere o valor de A para o registrador Y
+TXA	  ;Transfere o valor de X para o registrador A
+TXY       ;Nao funciona
+TYA	  ;Transfere o valor de Y para o registrador A
+
+$#01 = Linguagem Hexadecimal 
+$0202 = Linguagem Hexadecimal > 514 em decimal
+#01 = Valor numérico Literal
+
+------------------
+Registradores e flag
+
+Registradores:
+A ( Acumulador )
+X
+Y
+SP ( StackPointer ) = Decremente quando um byte é empurrado pra pilha 
+PC  ( ProgramCounter ) = Linha atual do código
+NW - BDIZC = Flags do processador, cada flag é um 1 bit, as 3 formam 1 byte
+00110000 = 
+
+LDA #$05
+LDX #$00      ; Inicializa o contador (X)
+LOOP:
+STA $0200,X   ; Armazena no endereço base + offset de X
+INX           ; Incrementa X
+CPX #$FF      ; Compara X com #$FF
+BNE LOOP      ; Se X não for 4, volta pro LOOP
+
+LDA #$80
+STA $01  armazena o valor do registrador A no local de memória $01
+ADC $01  adiciona o valor armazenado no local de memória $01 
+
+Diferença : #$01 e ADC $01
+#$01 = Adiciona o valor %01 ao registro
+ADC $01 = Adiciona o valor armazenado no endereço da memória $01 ao registrador A
+
+LDA #$c0  ;Carrega o valor hexadecimal $c0 no registrador A
+TAX       ;Transfere o valor de A para o registrador X
+INX       ;Incrementa o valor do registrador X
+ADC #$c4  ;Adiciona o valor hexadecimal $c4 ao valor já presente no registrador A
+BRK       ;Interrompe a execução do programa
+
+ou
+
+LDA #$c0  ;Carrega o valor hexadecimal $c0 no registrador A
+TAX       ;Transfere o valor de A para o registrador X
+INX       ;Incrementa o valor do registrador X
+SEC       ;Setar o carry flag
+ADC #$c4  ;Adiciona o valor hexadecimal $c4 ao valor já presente no registrador A
+BRK       ;Interrompe a execução do programa
+
+----------------------------
+Exercicios
+4-Já vimos a instrução TAX. Então, você pode supor o que TAY, TXA e TYA fazem. 
+Escreva um código com elas para confirmar se é isso mesmo.
+
+A > X 
+  > Y
+X > A
+  > Y
+Y > A
+5-Reescreva o primeiro exemplo desta sessão, mas utilize o registrador Y ao invés do registrador X
+
+6-O oposto de ADC (adicionar com carry / add with carry) é SBC (subtrair com carry / subtract with carry). 
+Escreva um programa que use essa instrução.
+
+LDA #$01  ;Carrega o valor hexadecimal $c0 no registrador A
+STA $0200
+TAX       ;Transfere o valor de A para o registrador X
+TAY
+
+LDA #$c5
+TAY
+TAX
+
+LDX #$c7
+TXA
+TAY
+
+LDY #$c9
+TYA
+TAX
+
+INX       ;Incrementa o valor do registrador X
+ADC #$c4  ;Adiciona o valor hexadecimal $c4 ao valor já presente no registrador A
+BRK       ;Interrompe a execução do programa
+
+------------------------------------
+
+;$c0 = 192
+;Limite máximo é : $ff = 255
+;$c0 + $3e = $fe
+
+LDA #$c0  ;Carrega o valor hexadecimal $c0 no registrador A
+TAX       ;Transfere o valor de A para o registrador X
+INX       ;Incrementa o valor do registrador X
+SEC       ;
+ADC #$3e  ;Adiciona o valor hexadecimal $f ao valor já presente no registrador A
+BRK       ;Interrompe a execução do programa
+
+209 = 521
+20A = 522
+20F = 527
+210 = 528

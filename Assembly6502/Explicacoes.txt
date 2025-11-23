@@ -1,0 +1,14 @@
+Instruções de Desvio :
+MNEMONIC                       HEX
+BPL (Branch on PLus)           $10
+BMI (Branch on MInus)          $30
+BVC (Branch on oVerflow Clear) $50
+BVS (Branch on oVerflow Set)   $70
+BCC (Branch on Carry Clear)    $90
+BCS (Branch on Carry Set)      $B0
+BNE (Branch on Not Equal)      $D0
+BEQ (Branch on EQual)          $F0
+
+Sinalizadores de Afeto: nenhum
+Todos os desvios estão em modo relativo e têm comprimento de dois bytes. A sintaxe é "Deslocamento Bxx" ou (melhor) "Rótulo Bxx". Consulte as notas no Contador de Programa para obter mais informações sobre deslocamentos.
+Os desvios dependem do status dos bits de sinalizador quando o código operacional é encontrado. Um desvio não executado requer dois ciclos de máquina. Adicione um se o desvio for executado e adicione mais um se o desvio ultrapassar o limite de uma página.

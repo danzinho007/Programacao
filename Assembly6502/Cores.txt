@@ -1,0 +1,16 @@
+Cores:
+
+00 = Preto
+01 = Branco
+02 = Vermelho
+03 = Azul claro
+04 = Roxo 
+05 = Verde
+06 = Azul
+08 = Amarelo
+09 = Marrom
+10 = Preto
+11 = Branco
+12 = Vermelho forte
+14 = Rosa
+16 = Azul forte

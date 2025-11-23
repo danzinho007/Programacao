@@ -1,0 +1,44 @@
+Assembly6502_Instruções
+
+c0 + c4 = ?
+
+Resolvendo
+1-Separe os dígitos e atribua as potências de 16: Começando da direita, com a potência 0.
+c0 > c e 0
+0 está na posição 16 elevado a 0
+c está na posição 16 elevado a 1
+
+2-Converta as letras para decimais:
+c é 12
+
+1 = 1
+...
+9 = 9
+a = 10
+b = 11
+c = 12
+
+3-Multiplique cada dígito pelo valor posicional
+
+0 x 16 elevado a 0  > 0 x 1 > 0
+12 x 16 elevado a 1 > 192
+ 
+ 16
+x12
+---
+ 32
+16
+192
+
+4-Some os resultados:
+0 + 192 = 192
+Logo c0 é 192 em decimal
+
+c4 = ?
+4 x 1 > 4
+12 x 16 = 192
+4 + 192 = 196
+c4 é 196
+
+c0 + c4 
+192 + 196 = 388 decimal ou 184 em hexadecimal

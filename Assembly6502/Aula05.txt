@@ -1,0 +1,8 @@
+LDA #$01
+STA $0200
+
+ADC #$A 
+STA $0205
+
+SBC #$05
+STA $020A 
